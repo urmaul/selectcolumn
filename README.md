@@ -2,6 +2,12 @@
 
 SelectColumn for Yii CGridView. It replaces cell content with label from map. And it sets that map as dropdown filter.
 
+## Installing
+
+```
+composer require urmaul/yii-selectcolumn dev-master
+```
+
 ## Using
 
 First, add this line to imports config:
@@ -9,7 +15,7 @@ First, add this line to imports config:
 ```php
 'import'=>array(
 	...
-	'ext.selectcolumn.SelectColumn',
+	'SelectColumn',
 	...
 ),
 ```

@@ -1,0 +1,21 @@
+{
+    "name": "urmaul/yii-selectcolumn",
+    "type": "library",
+    "description": "SelectColumn for Yii CGridView.",
+    "keywords": ["yii", "grid", "column", "select"],
+    "homepage": "https://github.com/urmaul/selectcolumn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bogdan Kolbik"
+        }
+    ],
+    "require": {
+        "yiisoft/yii": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "SelectColumn.php"
+        ]
+    }
+}
