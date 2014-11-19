@@ -1,5 +1,7 @@
 <?php
 
+Yii::import('zii.widgets.grid.CDataColumn');
+
 class SelectColumn extends CDataColumn
 {
 	
